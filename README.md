@@ -10,18 +10,6 @@ Follow the instructions in [this link](https://docs.github.com/en/free-pro-team@
 
 Follow the instructions in [this link](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) for adding your SSH key to github
 
-### Updating your node version
-
-Because this project is using TailwindCSS 2 it requires users to be on node version 12. See instructions below for checking and then updating your node version.
-- Run `node -v` to check which node version you're running
-- [Click here to download NVM on your pc](https://github.com/coreybutler/nvm-windows/releases)
-- Click the link that says "nvm-setup.zip"
-- Once you click this NVM will begin installing. NVM is what's needed to change and manage your node version
-- Once installed, open the zip and click the installer
-- Type "nvm" in the terminal to verify it was installed successfully
-- Install node version 12 `nvm install <version> : The version can be a node.js version or "latest" for the latest stable version`
-- Type `nvm use 12` to set your node version to 12
-
 ### To get this project installed on your local machine
 
 - Fork the repository. This button is located on the top right part of this webpage. Look for the button that says **fork**. Please do not clone directly from this repo. All pull requests will be against your forked repo, not by cloning the repository directly.
