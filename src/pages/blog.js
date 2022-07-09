@@ -8,8 +8,6 @@ const BlogPage = () => (
   <Layout>
     <SEO title="Blog" />
     <h1>Welcome to the blog page</h1>
-
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 );
 

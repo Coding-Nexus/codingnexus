@@ -3,6 +3,24 @@ module.exports = {
     title: `Coding Nexus`,
     description: `Coding Nexus is a social community for developers to learn and socialize online. For anyone interested, this is also a place to find a tutor, choose to be a tutor, or take part in our paid bootcamp program`,
     author: `Kevin Napier`,
+    menuLinks: [
+      {
+        name: 'about',
+        link: '/about/',
+      },
+      {
+        name: 'blog',
+        link: '/blog/',
+      },
+      {
+        name: 'contact',
+        link: '/contact/',
+      },
+      {
+        name: 'testimonials',
+        link: '/testimonials/',
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

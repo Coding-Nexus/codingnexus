@@ -1,23 +1,24 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, menuLinks }) => (
   <header>
-    <Link className="px-10" to="/blog/">
-      Blog
-    </Link>
-    <Link className="px-10" to="/about/">
-      About
-    </Link>
-    <Link className="px-10" to="/bootcamp/">
-      Bootcamp
-    </Link>
-    <Link className="px-10" to="/contact/">
-      Contact
-    </Link>
-    <Link className="px-10" to="/login/">
-      Login
-    </Link>
+    <div>
+      <h1>
+        <Link to="/">{siteTitle}</Link>
+      </h1>
+      <div>
+        <nav>
+          <ul>
+            {menuLinks.map(link => (
+              <li key={link.name}>
+                <Link to={link.link}>{link.name}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 );
 
